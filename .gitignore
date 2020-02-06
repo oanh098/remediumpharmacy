@@ -3,7 +3,7 @@
 /public/hot
 /public/storage
 /storage/*.key
-/vendor
+
 contactform.php
 contactform.js
 .env.backup
