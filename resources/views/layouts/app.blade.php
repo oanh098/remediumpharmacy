@@ -12,8 +12,8 @@
     </script>
     <script type="text/javascript" src="{{asset('FrontEnd')}}/customjs.js">
     </script>
-    <script type="text/javascript" src="{{asset('FrontEnd')}}/contactform.js">
-    </script>
+{{--    <script type="text/javascript" src="{{asset('FrontEnd')}}/contactform.js">--}}
+{{--    </script>--}}
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="Meta Description" />
     <title>
