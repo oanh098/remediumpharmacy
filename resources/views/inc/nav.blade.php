@@ -28,7 +28,7 @@ Menu
                     <li class="ttr_menu_items_parent dropdown active"><a href="index" class="ttr_menu_items_parent_link_active"><span class="menuchildicon"></span>Home</a>
                         <hr class ="horiz_separator"/>
                     </li> <!-- main menu list closing -->
-                    <li class="ttr_menu_items_parent dropdown"><a href="about-us" class="ttr_menu_items_parent_link_arrow dropdown-toggle" data-toggle="dropdown"><span class="menuchildicon"></span>About Us</a>
+                    <li class="ttr_menu_items_parent dropdown"><a href="#" class="ttr_menu_items_parent_link_arrow dropdown-toggle" data-toggle="dropdown"><span class="menuchildicon"></span>About Us</a>
                         <hr class ="horiz_separator"/>
                         <ul class="child dropdown-menu" role="menu">
                             <li><a href="our-philosophy"><span class="menuchildicon"></span>Our Philosophy</a>
@@ -44,7 +44,7 @@ Menu
                             </li> <!-- 1st level child list closing -->
                         </ul>
                     </li> <!-- main menu list closing -->
-                    <li class="ttr_menu_items_parent dropdown"><a href="cbd-and-thc" class="ttr_menu_items_parent_link_arrow dropdown-toggle" data-toggle="dropdown"><span class="menuchildicon"></span>CBD and THC</a>
+                    <li class="ttr_menu_items_parent dropdown"><a href="#" class="ttr_menu_items_parent_link_arrow dropdown-toggle" data-toggle="dropdown"><span class="menuchildicon"></span>CBD and THC</a>
                         <hr class ="horiz_separator"/>
                         <ul class="child dropdown-menu" role="menu">
                             <li><a href="overview"><span class="menuchildicon"></span>Overview</a>
@@ -57,7 +57,7 @@ Menu
                             </li> <!-- 1st level child list closing -->
                         </ul>
                     </li> <!-- main menu list closing -->
-                    <li class="ttr_menu_items_parent dropdown"><a href="medical-focus" class="ttr_menu_items_parent_link_arrow dropdown-toggle" data-toggle="dropdown"><span class="menuchildicon"></span>Medical Focus</a>
+                    <li class="ttr_menu_items_parent dropdown"><a href="#" class="ttr_menu_items_parent_link_arrow dropdown-toggle" data-toggle="dropdown"><span class="menuchildicon"></span>Medical Focus</a>
                         <hr class ="horiz_separator"/>
                         <ul class="child dropdown-menu" role="menu">
                             <li><a href="overview2"><span class="menuchildicon"></span>Overview</a>

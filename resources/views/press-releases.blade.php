@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts/app')
 @section('content')
     <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
     <div id="ttr_page" class="container">
@@ -22,7 +22,7 @@
                             <div class="ttr_press-releases_html_column10">
                                 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                                 <div class="html_content"><p style="line-height:1.57142857142857;"><span class="ttr_image" style="float:none;display:block;text-align:center;overflow:hidden;margin:0em 0em 0em 0em;"><span>
-                                                <img class="ttr_uniform" style="max-height:255px;max-width:450px;" src="{{asset('FrontEnd')}}/images/pr1-thumb.jpg" alt="Press Releases" /></span></span></p></div>
+                                                <img class="ttr_uniform" style="max-height:255px;max-width:450px;" src="{{asset('FrontEnd')}}/images/pr1-thumb1.jpg" alt="Press Releases" /></span></span></p></div>
                                 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-top-collapse: separate;"></div>
                                 <div style="clear:both;"></div>
                             </div>

@@ -8602,6 +8602,23 @@ button.close {
   .hidden-lg {
     display: none !important;
   }
+
+    .ttr_footer-widget-cell_inner_widget_container {
+        width: 1200px;
+
+    }
+    .ttr_slideshow  {
+        width: 1200px;
+
+    }
+    .navbar  {
+        width: 1250px;
+
+    }
+    #ttr_html_content_margin .row {
+        width: 1200px;
+    }
+
 }
 /* responsive-utilities.less:L161 */
 .visible-print {
