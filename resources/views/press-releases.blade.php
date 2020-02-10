@@ -1,4 +1,4 @@
-<h2>Hello Worlds</h2>
+<h2>Hello Worlds 103.67.235.120</h2>
 
 {{--@extends('layouts/app')--}}
 {{--@section('content')--}}

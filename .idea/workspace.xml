@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf8223be-0ff7-4fa7-8a26-843ad7ddffdc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/press-releases.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/press-releases.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +171,8 @@
       <workItem from="1578633043697" duration="74000" />
       <workItem from="1579528896469" duration="3336000" />
       <workItem from="1580211511071" duration="24614000" />
-      <workItem from="1580809850548" duration="23222000" />
+      <workItem from="1580809850548" duration="25049000" />
+      <workItem from="1581329172549" duration="2014000" />
     </task>
     <servers />
   </component>
