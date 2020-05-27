@@ -34,7 +34,7 @@ class pagesController extends Controller
     {
         $bodyClass = 'our-senior-team';
         $title='Our Senior Team';
-        return view('our-senior-team', compact(['bodyClass','title']));
+        return view('our-senior-team2', compact(['bodyClass','title']));
     }
     public function overview()
     {
@@ -102,12 +102,7 @@ class pagesController extends Controller
         $title='Investor Relation';
         return view('investor-relation', compact(['bodyClass','title']));
     }
-    public function contactUs()
-    {
-        $bodyClass = 'contact-us';
-        $title='Contact Us';
-        return view('contact-us', compact(['bodyClass','title']));
-    }
+
     public function pr20181214()
     {
         $bodyClass = 'pr-20181214';

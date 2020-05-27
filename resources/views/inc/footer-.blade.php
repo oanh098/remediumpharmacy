@@ -1,3 +1,7 @@
+{{--  backup2020May18--}}
+
+
+
 <div style="height:0px;width:0px;overflow:hidden;"></div>
 <footer id="ttr_footer">
     <div class="ttr_footer-widget-cell_inner_widget_container row">
@@ -8,7 +12,7 @@
                     <div class="html_content"><p style="margin:0em 0em 0em 0.71em;">
                             <span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 0em 0em 0em;">
                                 <span>
-                                    <img class="ttr_uniform" style="max-height:160px;max-width:228px;" src="{{asset('FrontEnd')}}/images/logo123.png" alt="logo1" /></span></span>
+                                    <img class="ttr_uniform" style="max-height:160px;max-width:228px;" src="{{asset('FrontEnd-removesoon')}}/images/logo123.png" alt="logo1" /></span></span>
                             <span class="ttr_image" style="float:Left;overflow:hidden;margin:0em 0em 0em 0em;">
                                 <span>
                                 <img class="ttr_uniform" style="max-height:160px;max-width:228px;" src="{{asset('FrontEnd')}}/images/logo213.png" alt="logo2" /></span></span>
@@ -53,10 +57,11 @@
             </div>
             <div id="ttr_copyright">
 <span>
-Copyright © 2012 - 2020 All Rights Reserved
+Copyright © 2012 - 2019 All Rights Reserved
 </span>
             </div>
         </div>
     </div>
 </footer>
 <div style="height:0px;width:0px;overflow:hidden;-webkit-margin-bottom-collapse: separate;"></div>
+{{-- End backup2020May18--}}

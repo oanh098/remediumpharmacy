@@ -1,0 +1,590 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-size: 20px;
+    line-height: 2em;
+}
+
+header#ttr_header {
+    background-color: #000000;
+    background-clip: padding-box;
+    height: 45px;
+    width: auto;
+    box-sizing: border-box;
+
+}
+.ttr_slogan_position {
+    position: relative;
+    z-index: 500;
+    left: 0;
+}
+
+.ttr_slogan_style {
+    color: #00BCDB;
+    font-size: 18px;
+    white-space: nowrap;
+}
+/*!*nav area*!*/
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1258px;
+    }
+}
+/*#ttr_menu.navbar {*/
+/*    height: 102px;*/
+/*    min-height: 100px;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*#ttr_menu_inner_in {*/
+/*    min-height: 100px;*/
+/*    text-align: justify;*/
+/*    position: relative;*/
+/*}*/
+
+
+
+/*.ttr_menu_logo {*/
+
+/*    position: absolute;*/
+/*    z-index: 500;*/
+/*    right: 34.66%;*/
+/*    text-align: center;*/
+/*    box-sizing: border-box;*/
+/*    display: none;*/
+/*}*/
+/*.ttr_menu_logo img {*/
+/*    vertical-align: middle;*/
+/*    max-height: 102px;*/
+/*    height: 65px;*/
+/*    width: 277.529312247251px;*/
+/*}*/
+
+/*.navbar .flex-1 {*/
+/*    flex: 1;*/
+/*    flex-basis: 100%;*/
+/*}*/
+
+/*end nav area*/
+
+
+/* Slide area */
+
+/*.ttr_slideshow {*/
+/*    position: relative;*/
+/*    margin: auto;*/
+/*    height: 350px;*/
+/*}*/
+/*@media (min-width: 1200px) {*/
+/*    .ttr_slideshow {*/
+/*        width: 1200px;*/
+/*    }*/
+/*}*/
+/*#ttr_slideshow_inner {*/
+/*    height: 350px;*/
+/*    position: absolute;*/
+/*    overflow: hidden;*/
+/*    width: 100%;*/
+/*}*/
+
+
+
+/*.ttr_slide {*/
+/*    height: 350px;*/
+/*    width: 100%;*/
+/*}*/
+
+/*#Slide0*/
+/*{*/
+/*    background:url(images/331002242Slide0.png);*/
+/*    background-color:#202020;*/
+/*    background-repeat:no-repeat;*/
+/*    background-size:cover;*/
+/*    background-position:Center Center;*/
+/*    background-clip:padding-box;*/
+/*}*/
+/*#Slide1*/
+/*{*/
+/*    background:url(images/331002242Slide1.jpg);*/
+/*    background-color:#FFFFFF;*/
+/*    background-repeat:no-repeat;*/
+/*    background-size:cover;*/
+/*    background-position:Center Center;*/
+/*    background-clip:padding-box;*/
+/*}*/
+/*#Slide2*/
+/*{*/
+/*    background:url(images/331002242Slide2.jpg);*/
+/*    background-color:#FFFFFF;*/
+/*    background-repeat:no-repeat;*/
+/*    background-size:cover;*/
+/*    background-position:Center Center;*/
+/*    background-clip:padding-box;*/
+/*}*/
+/*#Slide3*/
+/*{*/
+/*    background:url(images/331002242Slide3.png);*/
+/*    background-color:#FFFFFF;*/
+/*    background-repeat:no-repeat;*/
+/*    background-size:cover;*/
+/*    background-position:Center Center;*/
+/*    background-clip:padding-box;*/
+/*}*/
+
+
+.carousel .carousel-item {
+    width: 100%;
+    height: 47vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.carousel .carousel-item:first-of-type {
+    background:url(images/Slide0.png);
+
+}
+.carousel .carousel-item:nth-of-type(1) {
+    background: url(images/Slide1.jpg);
+
+}
+
+.carousel .carousel-item:nth-of-type(2) {
+    background:url(images/Slide2.jpg);
+
+}
+
+.carousel .carousel-item:last-of-type {
+    background:url(images/Slide3.png);
+
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 45px;
+    height: 45px;
+}
+.carousel-indicators {
+    bottom: 30px;
+}
+
+/* end Slide area */
+/* 3 photos index page*/
+.index_bg_row {
+    background: url(images/331002242html_row1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.border_column {
+    border: solid #E1E1E1;
+    background-clip: padding-box;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+/* end3 photos index page*/
+
+/* Our philosophy */
+.ttr_our-philosophy_col_bg {
+    background: url(images/372393476html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#ttr_html_content_margin > div.ttr_our-philosophy_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_our-research_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_our-commitment_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_our-senior-team_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_CBDandTHC-overview_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_cannabinoids_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_tetrahydrocannabinol_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_MedicalFocus-overview2_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_immunology_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_oncology_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_neuroscience_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_virology_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_general-medicine_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_press-releases_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_investor-relation_row.row > div [class*="html_content"],
+#ttr_html_content_margin > div.ttr_contact-us_row.row > div [class*="html_content"]
+
+
+
+{
+    width: 100%;
+    height: 47vh;
+}
+/* End Our philosophy */
+
+/* Our Research */
+.ttr_our-research_col_bg {
+    background: url(images/392087783html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* End Our Research */
+
+/* our commitment*/
+.ttr_our-commitment_col_bg{
+    background: url(images/680535133html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* end our commitment*/
+/* Our Senior team */
+.ttr_our-research_col_bg{
+    background: url(images/674219869html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End Our Senior team */
+
+/* CBDandTHC-overview2 */
+.ttr_our-research_col_bg{
+    background: url(images/699622428html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End CBDandTHC-overview2 */
+/* cannabinoids2 */
+
+.ttr_cannbinoids_col_bg{
+    background: url(images/688574633html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End cannabinoids2 */
+
+/*Tetrahydrocannabinol2*/
+.ttr_Tetrahydrocannabinol_col_bg{
+    background: url(images/719961722html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End Tetrahydrocannabinol2*/
+
+/* MedicalFocus-overview2 */
+.ttr_MedicalFocus-overview2_col_bg{
+    background: url(images/735539468html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End MedicalFocus-overview2 */
+/* immunology */
+.ttr_immunology_col_bg{
+    background: url(images/733892334html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End immunology */
+
+
+/* oncology */
+.ttr_oncology_col_bg{
+    background: url(images/721735394html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End oncology */
+/* neuroscience */
+.ttr_neuroscience_col_bg{
+    background: url(images/753202812html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End neuroscience */
+
+/* virology */
+.ttr_virology_col_bg{
+    background: url(images/744020338html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End virology */
+
+
+/* general-medicine */
+.ttr_general-medicine_col_bg{
+    background: url(images/741925616html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* End general-medicine */
+/* press-releases */
+.ttr_press-releases_col_bg{
+    background: url(images/767633590html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End press-releases */
+/*  investor-relation */
+.ttr_investor-relation_col_bg {
+    background: url(images/763035307html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*  End investor-relation */
+/*  contact-us */
+.ttr_contact-us_col_bg{
+
+    background: url(images/763035307html_column00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*  End contact-us */
+
+
+/* footer */
+
+
+
+.carousel_wrapper {
+    position: relative;
+    width: 320px;
+    margin: 0 auto 0 auto;
+    perspective: 1000px;
+}
+
+.carousel2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: rotateY(-360deg) translateZ(-412px); /* add reverse transformation from the slides */
+    animation: swirl 40s steps(10000, end) infinite; /* run `swirl` animation (defined at end of CSS) infitely, with animation lasting 40 seconds, and 10,000 steps between the FROM and TO values in the animation for a smooth rotation */
+}
+
+.slide2 {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.slide2 img {
+    max-height:160px;
+    max-width:228px;
+}
+
+
+/*
+9 Slides total: 360 Degrees (full circle) --> 360/9 = 40 --> our increment for rotation
+
+Some math. Consider how the carousel will be set up. It's going to be a 3D circle, like an orbit. The orientation will be such that it would be like setting a ring down on a table, then bending down
+and looking at the ring head on from the edge of the table. The main "front" image will be entirely front-facing.
+The other images will be rotated slightly to make a full circle. You could sketch this out in 2D from a bird's eye view, and you'd end up with a picture like the following:
+
+https://cl.ly/image/2P3E1U0W0c29
+
+Each triangle/piece would be a slide, hence 9 pieces. That being said, let's do some calculations, but we'll use the dimensions of our elements rather than those in the picture.
+
+So, we're rotating all the slides in 40º increments relative to each other, because 360º makes a full circle, and we have 9 elements: 360/9 = 40
+
+In the picture above, we want to find the radius of the circle (which isn't exactly a circle because it's made up of triangles).
+So we can cut each triangle in half and solve for `r` (radius). We can solve for `r` using some geometry and our own elements' dimensions.
+
+The width of the slides is 300px. We're going to split those triangles in half and use the TANGENT function in geometry/trigonemty to solve for `r`.
+And since we're splitting each of the 9 triangles (the slides) in half for this, we need to account for the fact that our key angle is now going to be 20º and not 40º.
+ We can solve for `r` by taking our smaller triangles' width (150px) and dividing by the tangent of 20º (in degrees, not radians). So:
+
+            150
+   r =  -----------
+          tan(20º)
+
+Here's a screenshot of me doing the calculations in JavaScript, right in the browser console!
+
+Math things: https://cl.ly/image/1t0j1V2Y2l2Z
+
+So, `r` is (about) 412px long! This means we need to TRANSLATE the slides in the Z 3-dimensional plane by 412px. This should be done AFTER the rotateY transformation.
+*/
+
+.slide2.one {
+    transform: rotateY(0deg) translateZ(412px);
+}
+.slide2.two {
+    /*transform: rotateY(40deg) translateZ(412px);*/
+    transform: rotateY(32deg) translateZ(412px);
+}
+.slide2.three {
+    transform: rotateY(64deg) translateZ(412px);
+    /*transform: rotateY(80deg) translateZ(412px);*/
+}
+.slide2.four {
+    transform: rotateY(96deg) translateZ(412px);
+}
+.slide2.five {
+    transform: rotateY(128deg) translateZ(412px);
+}
+.slide2.six {
+    transform: rotateY(160deg) translateZ(412px);
+}
+.slide2.seven {
+    transform: rotateY(192deg) translateZ(412px);
+}
+.slide2.eight {
+    transform: rotateY(224deg) translateZ(412px);
+}
+.slide2.nine {
+    transform: rotateY(256deg) translateZ(412px);
+}
+.slide2.ten {
+    transform: rotateY(288deg) translateZ(412px);
+}
+.slide2.eleven {
+    transform: rotateY(320deg) translateZ(412px);
+}
+
+/*
+CSS3 ANIMATION
+-------------------
+Simply rotates the carousel around the Y axis by using rotateY and starting at initial value, -360º, and going to final value 0º, then resetting.
+*/
+
+@keyframes swirl {
+    from {
+        transform: rotateY(-360deg);
+    }
+    to {
+        transform: rotateY(0deg);
+    }
+}
+
+/* End footer */
+
+/* Slide right */
+
+/*.slide-right {*/
+/*    position: relative;*/
+/*    left: -600px;*/
+/*    width: 600px;*/
+/*    height: auto;*/
+/*    -webkit-animation: slide-right 2s forwards;*/
+/*    -webkit-animation-delay: 1s;*/
+/*    animation: slide-right 2s forwards;*/
+/*    animation-delay: 0.3s;*/
+/*}*/
+
+/*@-webkit-keyframes slide-right {*/
+/*    100% { left: 0; }*/
+/*}*/
+
+/*@keyframes slide-right {*/
+/*    100% { left: 0; }*/
+/*}*/
+
+/*.slide-left {*/
+/*    position: relative;*/
+/*    right: -600px;*/
+/*    width: 600px;*/
+/*    height: auto;*/
+/*    -webkit-animation: slide-left 2s forwards;*/
+/*    -webkit-animation-delay: 1s;*/
+/*    animation: slide-left 2s forwards;*/
+/*    animation-delay: 0.3s;*/
+/*}*/
+
+/*@-webkit-keyframes slide-left {*/
+/*    100% { right: 0; }*/
+/*}*/
+
+/*@keyframes slide-left {*/
+/*    100% { right: 0; }*/
+/*}*/
+
+.fade-inR {
+    animation:  fadeInRight ease 5s;
+    -webkit-animation:  fadeInRight ease 5s;
+    -moz-animation:  fadeInRight ease 5s;
+    -o-animation:  fadeInRight ease 5s;
+    -ms-animation:  fadeInRight ease 5s;
+}
+
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity:0;
+        transform: translate3d(-40px,0,0)
+    }
+    100% {
+        opacity:1;
+    }
+}
+.fade-inL {
+    animation:  fadeInLeft ease 5s;
+    -webkit-animation:  fadeInLeft ease 5s;
+    -moz-animation:  fadeInLeft ease 5s;
+    -o-animation:  fadeInLeft ease 5s;
+    -ms-animation:  fadeInLeft ease 5s;
+}
+
+
+@-webkit-keyframes fadeInLeft {
+    0% {
+        opacity:0;
+        transform: translate3d(40px,0,0)
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+
+
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+/* End Slide right */
+
+/* PR issues*/
+.ttr_pr-bg_col
+{
+    background:url(images/785410428html_column00.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-clip:padding-box;
+    word-wrap:break-word;
+    box-sizing: border-box;
+}
+
+
+.shape {
+    float: left;
+    margin-top: 0.5em;
+    margin-bottom: 1.2em;
+    margin-right: 2em;
+}
+/* End PR issues*/

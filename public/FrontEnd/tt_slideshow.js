@@ -28,20 +28,20 @@
         element1 = $(this).find("ul:first");
         currentSlide = element.find('> ul > li:first');
         transitionEffect = currentSlide.attr("data-slideEffect");
-		
+
         settings = $.extend({}, $.fn.TTSlider.defaults, settings);
         $.fn.TTSlider.settings = settings;
         stopTransition = $.fn.TTSlider.settings.stopTransition;
         prefix = $.fn.TTSlider.settings.cssPrefix;
         timeout = $.fn.TTSlider.settings.begintime;
         if (transitionEffect == 'None' || transitionEffect == 'Blind' || transitionEffect == 'Circlereveal' || transitionEffect == 'Fade' || transitionEffect == 'Pixelate' || transitionEffect == 'RadialBlur' || transitionEffect == 'Ripple' || transitionEffect == 'Wipe' || transitionEffect == 'SlideLeft' || transitionEffect == 'SlideRight' || transitionEffect == 'SlideTop' || transitionEffect == 'SlideBottom') {
-            
+
 			var list = currentSlide.find('.' + prefix + 'slideshow_last').children().length;
             if (list != 0) {
                 currentSlide.find('.' + prefix + 'slideshow_last').children().hide();
                 $.fn.TTSlider.effectForeground(currentSlide);
             }
-            
+
             //$(this.selector + ' > ul > li:gt(0)').hide();
         	var topid = $(this).attr('id');
             $( '#' + topid + ' > ul > li:gt(0)').hide();
@@ -133,9 +133,9 @@
                 $.fn.TTSlider.effectNone(currentSlide, next);
                 break;
         }
-        
+
         //for video in slideshow-start
-        
+
          var slideshowParent = document.getElementById(prefix + "slideshow_inner");
         var slideshowParentChildren = slideshowParent['children'];
         slideshowParentChildren = slideshowParentChildren[0];
@@ -150,14 +150,14 @@
         		var child_id1 = slide_child[0].id
         		var currentSlide_child1 = slide_child[0];
         		if (child_id1 == prefix + 'slideshow_video')
-        		{		
-					try 
+        		{
+					try
 					{
 						currentSlide_child1.play();
 					}
 					catch(err)
 					{
-	
+
 					}
 					var sorce = currentSlide_child1.src;
 					if(sorce.match('youtube'))
@@ -176,14 +176,14 @@
         		var child_id1 = slide_child[0].id
         		var currentSlide_child1 = slide_child[0];
         		if (child_id1 == prefix + 'slideshow_video')
-        		{		
-					try 
-					{				
+        		{
+					try
+					{
         			currentSlide_child1.pause();
 					}
 					catch(err)
 					{
-						
+
 					}
 					var sorce = currentSlide_child1.src;
 					if(sorce.match('youtube'))
@@ -191,19 +191,19 @@
 						if(sorce.match('&autoplay=1'))
 						{
 							var splt = sorce.split('&');
-							var j = 0;							
+							var j = 0;
 							var conSrc = '';
 							for (j = 0; j < splt.length-1;j++)
 							{
 							conSrc += splt[j];
 							}
-							currentSlide_child1.src = conSrc; 
+							currentSlide_child1.src = conSrc;
 						}
 					}
         		}
         	}
         }
-        
+
         //for video in slideshow-end
         currentSlide = next;
     };
@@ -630,7 +630,7 @@
             elem.stop(true, true);
             $.fn.TTSlider._clearTimeout();
             $.fn.TTSlider.slideShow($.fn.TTSlider.settings.sequenceMode, -1);
-            
+
             });
         $('.left-button').append(x);
         $('.right-button').append(y);
@@ -639,8 +639,8 @@
     /*------------ Foreground Image Effects -----------------*/
     $.fn.TTSlider.effectForeground = function (div1) {
         var listing = div1.find("." + prefix + "slideshow_last ").children();
-        var listing1 = div1.find("." + prefix + "slideshow_element_alignment").children();       
-       	$(listing,listing1).each(function(){    
+        var listing1 = div1.find("." + prefix + "slideshow_element_alignment").children();
+       	$(listing,listing1).each(function(){
             effectt = $(this).attr("data-effect");
             time = $(this).attr("data-begintime");
             duration = $(this).attr("data-duration");
@@ -650,17 +650,17 @@
             h = $('.' + prefix + 'slideshow_last').height();
             f_width = $(this).width();
             f_height = $(this).height();
-            
+
             if (navigator.appVersion.indexOf("MSIE 8.") != -1) {
                 left = $(this).css("left");
                 right = $(this).css("right");
             }
-            else {               
+            else {
                 style = window.getComputedStyle(this),
                 left = style.getPropertyValue("left");
                 right = $(this).css("right");
             }
-            
+
             if(left == "0px" && right =="0px"){
 				margin_border = 0;
 				mleft = $(this).css("margin-left").replace("px","");
@@ -679,7 +679,7 @@
 				if(bright != "auto"){
 					margin_border = Number(bright);
 				}
-				
+
 				left = ((w/2 - f_width/2)/( w - margin_border) * 100) +"%";
 				if(slidedirection !== undefined)
 				{
@@ -688,10 +688,10 @@
 					}
 					else{
 						$(this).css("right", "auto");
-					}	
+					}
 				}
 			 }
-			 
+
             topp = $(this).css("top");
             var t = time * 1000;
             var d = duration * 1000;
@@ -714,7 +714,7 @@
 			   	  {
                     $(this).css({ 'left': -w + 'px' }).delay(t).fadeIn(1000).animate({ 'left': left }, d, easingg);
                   }
-                 else 
+                 else
                   {
                     $(this).css({ 'left': w + 'px' }).delay(t).show().animate({ 'left': left }, d, easingg);
                   }
@@ -727,13 +727,13 @@
                    else {
                       $(this).css({ 'left': -f_height + 'px' }).delay(t).show().animate({ 'left': left }, d, easingg);
                    }
-				}   
+				}
                 break;
                 case 'right':
                     if (effectt == 'Fade') {
                        if(left == 'auto')
                     	{
-							$(this).css({ 'right': -w + 'px' }).delay(t).fadeIn(1000).animate({ 'right': right }, d, easingg);	
+							$(this).css({ 'right': -w + 'px' }).delay(t).fadeIn(1000).animate({ 'right': right }, d, easingg);
 						}
 						else
 						{
@@ -743,7 +743,7 @@
                     else {
                         if(left == 'auto')
                     	{
-							$(this).css({ 'right': -w + 'px' }).delay(t).show().animate({ 'right': right }, d, easingg);	
+							$(this).css({ 'right': -w + 'px' }).delay(t).show().animate({ 'right': right }, d, easingg);
 						}
 						else
 						{
@@ -794,7 +794,7 @@
                     else {
                         $(this).css({  'left': -f_height + 'px', 'top': -f_height + 'px' }).delay(t).show().animate({ 'left': left, 'top': topp }, d, easingg);
                     }
-				}   
+				}
 				break;
                 case 'right,top':
                    if(left == 'auto')

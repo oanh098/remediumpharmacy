@@ -14,6 +14,9 @@
 //Route::get('/', function () {
 //    return view('welcome');
 //});
+use App\Http\Controllers\contactController;
+use App\Mail\NewContactWelcomeMail;
+
 Route::get('/', 'pagesController@index');
 Route::get('/index', 'pagesController@index');
 
@@ -32,7 +35,13 @@ Route::get('/virology', 'pagesController@virology');
 Route::get('/general-medicine', 'pagesController@generalMedicine');
 Route::get('/press-releases', 'pagesController@pressReleases');
 Route::get('/investor-relation', 'pagesController@investorRelation');
-Route::get('/contact-us', 'pagesController@contactUs');
+
+Route::get('/contact-us', 'contactController@index');
+Route::get('/contact-us/mail', function (){
+    return new NewContactWelcomeMail();
+});
+Route::post('/contact-us', 'contactController@send');
+
 Route::get('/pr-20181214', 'pagesController@pr20181214');
 Route::get('/pr-20181203', 'pagesController@pr20181203');
 Route::get('/pr-20181201', 'pagesController@pr20181201');
