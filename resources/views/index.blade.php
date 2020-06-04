@@ -39,7 +39,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="html_content">
                         <h1 style="text-align: center">
-                            Hello Welcome to Remedium Bio-Technology</h1>
+                            Welcome to Remedium Bio-Technology</h1>
                         <p style="text-align: center; font-size: 1.2em">Developing Clinically Proven Cures Through Clinically Proven Research</p>
                         <p> Remedium Bio-Technology is a bio-technology company who through clinical research develop clinically proven cures and remedies utilizing marijuana as the core ingredient to our established research programs.</p>
                         <p>As our name implies, 'Remedium', being Latin for 'remedy' or 'cure' aptly describes our company's ethos as we always have, and always will,
